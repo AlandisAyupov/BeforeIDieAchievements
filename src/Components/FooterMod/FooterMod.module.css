@@ -1,0 +1,25 @@
+.footer-mod {
+  position: relative;
+  border: lightblue;
+  background-color: rgb(20, 20, 35);
+  width: 300px;
+  left: 575px;
+}
+
+.footer-mod p {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer-mod a {
+  color: rgb(37, 216, 236);
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+
+  &:hover {
+    font-size: 1.1rem;
+  }
+}
